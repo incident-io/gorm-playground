@@ -23,5 +23,5 @@ func TestGORM(t *testing.T) {
 		t.Errorf("Failed, got error: %v", err)
 	}
 
-	fmt.Printf("%+v\n", result.Aliases)
+	fmt.Printf("%+v\n", result)
 }
